@@ -15,7 +15,6 @@ namespace Designer
         private void Init()
         {
             InitializeComponent();
-           
         }
 
         private void ShowMessageButton_MouseClick(object sender, MouseEventArgs e)
@@ -27,7 +26,11 @@ namespace Designer
 
         private void button1_Click(object sender, System.EventArgs e)
         {
-           
+            ThemeFactory themeFactory = new ThemeFactory();
+            Theme selectedTheme = themeFactory.getTheme(comboBox1.SelectedIndex);
+
+            toolStrip1.BackColor = selectedTheme.GetThemeColor();
+            button1.BackColor = selectedTheme.GetThemeColor();
         }
 
        

@@ -2,7 +2,7 @@
 
 namespace Designer
 {
-    class ThemeAzure
+    public class ThemeAzure : Theme
     {
         private Color azureColor = Color.Azure; 
         
@@ -12,9 +12,10 @@ namespace Designer
 
         }
 
-        public Color GetThemeColor()
+        public override Color GetThemeColor()
         {
             return azureColor;
         }
-    }
+
+     }
 }

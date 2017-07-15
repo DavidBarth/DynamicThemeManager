@@ -1,13 +1,28 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-
-namespace Designer
+﻿namespace Designer
 {
-    internal class ThemeFactory 
+    internal class ThemeFactory
     {
-        
+       
+        public ThemeFactory()
+        {
+            
+        }
 
-        
+        internal Theme getTheme(int selectedIndex)
+        {
+            Theme  theme = null;
+
+            if (selectedIndex == 0)
+            {
+                theme =  new ThemeAzure();
+            }
+
+            if(selectedIndex == 1)
+            {
+               theme = new ThemeSalmon();
+            }
+
+            return theme;
+        }
     }
 }

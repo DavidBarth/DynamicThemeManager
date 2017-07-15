@@ -1,8 +1,9 @@
-﻿using System.Drawing;
+﻿using System;
+using System.Drawing;
 
 namespace Designer
 {
-    class ThemeSalmon
+    public class ThemeSalmon : Theme
     {
         private Color salmonColor = Color.Salmon;
 
@@ -11,9 +12,11 @@ namespace Designer
 
         }
 
-        public Color GetThemeColor()
+        public override Color GetThemeColor()
         {
             return salmonColor;
         }
+
+       
     }
 }

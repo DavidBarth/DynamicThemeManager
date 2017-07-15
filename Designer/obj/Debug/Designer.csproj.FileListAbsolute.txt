@@ -20,12 +20,11 @@ D:\Users\Rob Windsor\Downloads\windows-forms-introduction-with-visual-basic\1-wi
 D:\Users\Rob Windsor\Downloads\windows-forms-introduction-with-visual-basic\1-windows-forms-introduction-with-visual-basic-m1-forms1-exercise-files\CS\Designer\Designer\obj\Debug\Designer.Properties.Resources.resources
 D:\Users\Rob Windsor\Downloads\windows-forms-introduction-with-visual-basic\1-windows-forms-introduction-with-visual-basic-m1-forms1-exercise-files\CS\Designer\Designer\obj\Debug\Designer.csproj.GenerateResource.Cache
 C:\DAVE\__PLURALSIGHT\WindowsForms\1-windows-forms-introduction-with-visual-basic-m1-forms1-exercise-files\CS\Designer\Designer\bin\Debug\Designer.exe.config
-C:\DAVE\__PLURALSIGHT\WindowsForms\1-windows-forms-introduction-with-visual-basic-m1-forms1-exercise-files\CS\Designer\Designer\obj\Debug\Designer.exe
-C:\DAVE\__PLURALSIGHT\WindowsForms\1-windows-forms-introduction-with-visual-basic-m1-forms1-exercise-files\CS\Designer\Designer\obj\Debug\Designer.pdb
 C:\DAVE\__PLURALSIGHT\WindowsForms\1-windows-forms-introduction-with-visual-basic-m1-forms1-exercise-files\CS\Designer\Designer\bin\Debug\Designer.exe
 C:\DAVE\__PLURALSIGHT\WindowsForms\1-windows-forms-introduction-with-visual-basic-m1-forms1-exercise-files\CS\Designer\Designer\bin\Debug\Designer.pdb
-C:\DAVE\__PLURALSIGHT\WindowsForms\1-windows-forms-introduction-with-visual-basic-m1-forms1-exercise-files\CS\Designer\Designer\obj\Debug\Designer.csprojResolveAssemblyReference.cache
 C:\DAVE\__PLURALSIGHT\WindowsForms\1-windows-forms-introduction-with-visual-basic-m1-forms1-exercise-files\CS\Designer\Designer\obj\Debug\Designer.MyForm.resources
 C:\DAVE\__PLURALSIGHT\WindowsForms\1-windows-forms-introduction-with-visual-basic-m1-forms1-exercise-files\CS\Designer\Designer\obj\Debug\Designer.MyOtherForm.resources
 C:\DAVE\__PLURALSIGHT\WindowsForms\1-windows-forms-introduction-with-visual-basic-m1-forms1-exercise-files\CS\Designer\Designer\obj\Debug\Designer.Properties.Resources.resources
 C:\DAVE\__PLURALSIGHT\WindowsForms\1-windows-forms-introduction-with-visual-basic-m1-forms1-exercise-files\CS\Designer\Designer\obj\Debug\Designer.csproj.GenerateResource.Cache
+C:\DAVE\__PLURALSIGHT\WindowsForms\1-windows-forms-introduction-with-visual-basic-m1-forms1-exercise-files\CS\Designer\Designer\obj\Debug\Designer.exe
+C:\DAVE\__PLURALSIGHT\WindowsForms\1-windows-forms-introduction-with-visual-basic-m1-forms1-exercise-files\CS\Designer\Designer\obj\Debug\Designer.pdb
