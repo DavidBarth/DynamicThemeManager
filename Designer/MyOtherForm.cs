@@ -30,7 +30,7 @@ namespace Designer
             Theme selectedTheme = themeFactory.getTheme(comboBox1.SelectedIndex);
 
             toolStrip1.BackColor = selectedTheme.GetThemeColor();
-            button1.BackColor = selectedTheme.GetThemeColor();
+            ChangeThemeButton.BackColor = selectedTheme.GetThemeColor();
         }
 
        

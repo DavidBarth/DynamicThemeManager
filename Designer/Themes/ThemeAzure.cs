@@ -2,6 +2,9 @@
 
 namespace Designer
 {
+    /// <summary>
+    /// Client specifed theme
+    /// </summary>
     public class ThemeAzure : Theme
     {
         private Color azureColor = Color.Azure; 
