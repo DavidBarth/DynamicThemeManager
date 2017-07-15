@@ -1,32 +1,25 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 
 namespace Designer
 {
-    class ThemeService :IThemeService
+    class ThemeService : IThemeService
     {
-        private ArrayList themeList = new ArrayList();
-
+        private ArrayList themes = new ArrayList();
         
-
-        public IList GetThemes()
+        public ThemeService()
         {
-            InitThemes();
-            return themeList;
+            Init();
         }
 
-        private void InitThemes()
+        private void Init()
         {
-            themeList.Add(ThemeEnum.ThemeAzure);
-            themeList.Add(ThemeEnum.ThemeSalmon);
+            themes.Add(ThemeEnum.ThemeAzure);
+            themes.Add(ThemeEnum.ThemeSalmon);
         }
 
-
-
-        public void ChangeTheme(int themeNumber)
+        public ArrayList GetThemes()
         {
-            throw new NotImplementedException();
+            return themes;
         }
-
     }
 }

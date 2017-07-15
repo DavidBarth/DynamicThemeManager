@@ -5,8 +5,14 @@ namespace Designer
     class ThemeAzure
     {
         private Color azureColor = Color.Azure; 
+        
 
-        Color GetColor()
+        public ThemeAzure()
+        {
+
+        }
+
+        public Color GetThemeColor()
         {
             return azureColor;
         }

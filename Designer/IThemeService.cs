@@ -4,8 +4,6 @@ namespace Designer
 {
     interface IThemeService
     {
-        IList GetThemes();
-                  
-               
+        ArrayList GetThemes();        
     }
 }
