@@ -31,14 +31,21 @@ namespace Designer
             switch (comboBox1.SelectedIndex)
             {
                 case 0:
-                    toolStrip1.BackColor = System.Drawing.Color.LightSalmon;
-                    button1.BackColor = System.Drawing.Color.LightSalmon;
+                    ChangeTheme();
                     break;
 
                 case 1:
-                    MessageBox.Show("Switch to theme 2");
+                    toolStrip1.BackColor = System.Drawing.Color.LightSeaGreen;
+                    button1.BackColor = System.Drawing.Color.LightSeaGreen;
                     break;
             }
         }
+
+        private void ChangeTheme()
+        {
+            toolStrip1.BackColor = System.Drawing.Color.LightSalmon;
+            button1.BackColor = System.Drawing.Color.LightSalmon;
+        }
+
     }
 }

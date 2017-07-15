@@ -2,8 +2,8 @@
 {
     enum ThemeEnum
     {
-        Theme = 1 ,
+        ThemeSalmon = 1 ,
 
-        AnotherTheme = 2
+        ThemeAzure = 2
     }
 }

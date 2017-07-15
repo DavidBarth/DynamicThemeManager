@@ -8,14 +8,17 @@ namespace Designer
 
         public IList GetThemes()
         {
-            
-            themeList.Add(ThemeEnum.Theme);
-            themeList.Add(ThemeEnum.AnotherTheme);
+            InitThemes();
             return themeList;
         }
 
-        
+        private void InitThemes()
+        {
+            themeList.Add(ThemeEnum.ThemeAzure);
+            themeList.Add(ThemeEnum.ThemeSalmon);
+        }
 
-        
+
+
     }
 }
