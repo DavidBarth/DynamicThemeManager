@@ -10,13 +10,12 @@ namespace Designer
         public MyOtherForm()
         {
             Init();           
-
         }
 
         private void Init()
         {
             InitializeComponent();
-            MessageLabel.Text = "";
+           
         }
 
         private void ShowMessageButton_MouseClick(object sender, MouseEventArgs e)
@@ -28,16 +27,15 @@ namespace Designer
 
         private void button1_Click(object sender, System.EventArgs e)
         {
-            var selectedItem = comboBox1.SelectedItem;
-           // int themeSwitch = int.Parse(selectedItem.ToString());
 
-            switch selectedItem)
+            switch (comboBox1.SelectedIndex)
             {
-                case 1:
-                    MessageBox.Show("Switch to theme 2");
+                case 0:
+                    toolStrip1.BackColor = System.Drawing.Color.LightSalmon;
+                    button1.BackColor = System.Drawing.Color.LightSalmon;
                     break;
 
-                case 2:
+                case 1:
                     MessageBox.Show("Switch to theme 2");
                     break;
             }

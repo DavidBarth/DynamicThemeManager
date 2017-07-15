@@ -60,7 +60,9 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThemeEnum.cs" />
+    <Compile Include="ThemeOne.cs" />
     <Compile Include="ThemeService.cs" />
+    <Compile Include="ThemeTwo.cs" />
     <EmbeddedResource Include="MyForm.resx">
       <DependentUpon>MyForm.cs</DependentUpon>
     </EmbeddedResource>

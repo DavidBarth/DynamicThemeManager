@@ -2,7 +2,7 @@
 {
     enum ThemeEnum
     {
-        Theme = 1,
+        Theme = 1 ,
 
         AnotherTheme = 2
     }
