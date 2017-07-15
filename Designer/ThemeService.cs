@@ -1,10 +1,13 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 
 namespace Designer
 {
     class ThemeService :IThemeService
     {
         private ArrayList themeList = new ArrayList();
+
+        
 
         public IList GetThemes()
         {
@@ -19,6 +22,11 @@ namespace Designer
         }
 
 
+
+        public void ChangeTheme(int themeNumber)
+        {
+            throw new NotImplementedException();
+        }
 
     }
 }

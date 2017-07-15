@@ -1,11 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Drawing;
 
 namespace Designer
 {
-    class ThemeOne
+    class ThemeAzure
     {
+        private Color azureColor = Color.Azure; 
+
+        Color GetColor()
+        {
+            return azureColor;
+        }
     }
 }
